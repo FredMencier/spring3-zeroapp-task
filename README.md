@@ -14,3 +14,6 @@ Basic app : Task app with JPA
   - ajout d'une task
 - Logging (Slf4j)
 - Properties with .properties file
+
+Reference :
+https://www.tutorialspoint.com/servlets/servlets-form-data.htm
