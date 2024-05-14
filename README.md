@@ -9,7 +9,7 @@ Basic app : Task app with JPA
 - Base MySql for Server
 - Base H2 in Memory for TU
 - WebApp : index.html
-- 1 Servlet : TaskServlet
+- 1 Servlet : TaskServlet (return text/html)
   - search by id (doGet)
   - ajout d'une task
 - Logging (Slf4j)
