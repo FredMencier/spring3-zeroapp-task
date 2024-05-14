@@ -11,6 +11,6 @@ Basic app : Task app with JPA
 - WebApp : index.html
 - 1 Servlet : TaskServlet
   - search by id (doGet)
-  - TODO : faire l'ajout d'une personne et de task
+  - ajout d'une task
 - Logging (Slf4j)
 - Properties with .properties file
