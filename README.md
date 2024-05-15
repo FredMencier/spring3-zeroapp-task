@@ -10,10 +10,16 @@ Basic app : Task app with JPA
 - Base H2 in Memory for TU
 - WebApp : index.html
 - 1 Servlet : TaskSearchServlet
-  - search by id (response text/html)
+    - search by id (response text/html)
 - - 1 Servlet : TaskSearchServlet
-  - search by id (response application/json)
+- search by id (response application/json)
 - 1 Servlet : TaskCreateServlet
-  - ajout d'une task
+    - ajout d'une task
 - Logging (Slf4j)
 - Properties with .properties file
+
+Reference :
+
+https://www.tutorialspoint.com/servlets/servlets-form-data.htm
+
+https://www.geeksforgeeks.org/spring-boot-interceptor/
