@@ -7,14 +7,20 @@
 <body>
 <h2>Application Task</h2><br><br>
 
-<b>Recherche d'une task :</b><br>
+<b>Recherche d'une task : (html response)</b><br>
 <form action = "/tasks/search" method = "GET">
     Task id: <input type = "text" name = "id">
     <input type = "submit" value = "Submit" />
 </form>
 <br><br>
+<b>Recherche d'une task : (json response)</b><br>
+<form action = "/tasks/searchjson" method = "GET">
+    Task id: <input type = "text" name = "id">
+    <input type = "submit" value = "Submit" />
+</form>
+<br><br>
 <b>Creation d'une task</b><br>
-<form action = "/tasks" method = "POST">
+<form action = "/tasks/create" method = "POST">
     Description: <input type = "text" name = "desc"><br>
     Mail responsable: <input type = "text" name = "mail">
     <input type = "submit" value = "Submit" />
